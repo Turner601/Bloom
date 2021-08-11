@@ -1,0 +1,241 @@
+/* 
+    Header-Font: font-family: 'Cedarville Cursive', cursive; 
+    Text-Font: font-family: sans-serif
+*/
+
+/* Icons  */
+.icon {
+display: inline-block;
+/* width: 22px; */
+/* height: 22px; */
+stroke-width: 0;
+stroke: currentColor;
+fill: currentColor;
+}
+
+/* ==========================================
+Single-colored icons can be modified like so:
+.icon-name {
+font-size: 32px;
+color: red;
+}
+========================================== */
+
+/* .icon-bubbles2 {
+    width: 1.125em;
+} */
+
+.icon-facebook, .icon-twitter, .icon-rss {
+    font-size: 16px;
+    width: 30px;
+    height: 34px;
+    background-color: white;
+    color: black;
+    border-radius: 50%;
+    padding: 5px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Header Start */
+
+.header {
+    background-color: black;
+    margin-top: -22px;
+    height: 85px;
+}
+
+.header .inner {
+    margin: 0 auto;
+    padding: 0;
+    /* position: relative; */
+    /* display: inline-block; */
+}
+
+.logo {
+    position: relative;
+    left: 20px;
+    color: white;
+    text-transform: capitalize;
+    font-family: 'Cedarville Cursive';
+    font-size: 46px;
+}
+
+.sr-only {
+    display: none;
+}
+
+.top-nav .so-list-item {
+    position: relative;
+    display: inline-block;
+    padding: 5px;
+    top: -95px;
+    left: 1700px;
+}
+
+.icon:hover {
+    background-color: grey;
+    cursor: pointer;
+}
+
+/* Header End */
+
+/* Main Start */
+
+.main .section1 {
+    margin-top: -31px;
+    background: linear-gradient(#e9718a, #eb8ea1);
+}
+
+.section1 .inner {
+    height: 400px;
+}
+
+.block1 {
+    color: white;
+    padding-left: 20px;
+}
+
+.block1 .sub-header {
+    padding-top: 20px;
+    font-size: 38px;
+}
+
+.block1-text {
+    width: 40%;
+    line-height: 24px;
+}
+
+.button {
+    background-color: #3a3b3d;
+    color: white;
+    text-transform: capitalize;
+    font-size: 14px;
+    margin-right: 20px;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+.button:hover {
+    background-color: orangered;
+    cursor: pointer;
+}
+
+.block2 {
+    position: relative;
+    left: 1000px;
+    bottom: 340px;
+}
+
+.landing-img {
+    width: 600px;
+}
+
+.section2 .inner {
+    background-color: #f4f4f6;
+    height: 250px;
+}
+
+.block3, .block4, .block5 {
+    padding-top: 10px;
+    position: relative;
+    width: 25%;
+    line-height: 24px;
+}
+
+.block3 {
+    left: 115px;
+}
+
+.block4 {
+    top: -230px;
+    left: 720px;
+}
+
+.block5 {
+    top: -460px;
+    left: 1315px;
+}
+
+.section3 .inner {
+    height: 625px;
+    /* border: 2px solid blue; */
+}
+
+.products {
+    width: 56%;
+    height: 550px;
+    /* border: 2px solid red; */
+}
+
+.search1, .search2, .search3, .search4 {
+    position: relative;
+}
+
+.search2 {
+    top: -244px;
+    left: 603px;
+}
+
+.search3 {
+    top: -183px;
+    left: 0;
+}
+
+.search4 {
+    top: -427px;
+    left: 603px;
+}
+
+.search-icon {
+    width: 450px;
+}
+
+.aside {
+    position: relative;
+    top: -612px;
+    left: 1250px;
+    width: 25%;
+    line-height: 30px;
+}
+
+.aside-text {
+    margin-top: 35px;
+    padding: 20px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+/* Main End */
+
+/* Footer Start */
+
+.footer {
+    height: 85px;
+    background-color: black;
+    /* border: 2px solid red; */
+}
+
+.colophon {
+    padding-top: 16px;
+}
+
+.colophon-text {
+    color: white;
+}
+
+.footer .so-list-item {
+    position: relative;
+    display: inline;
+    padding: 5px;
+    top: -42px;
+    left: 1700px;
+}

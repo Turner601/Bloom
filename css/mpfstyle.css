@@ -1,0 +1,263 @@
+/* 
+    Header-Font: font-family: 'Cedarville Cursive', cursive; 
+    Text-Font: font-family: sans-serif
+*/
+
+* {
+    box-sizing: border-box;
+}
+
+.clear {
+    clear: both;
+}
+
+.icon-facebook, .icon-twitter, .icon-rss {
+    font-size: 16px;
+    width: 30px;
+    height: 34px;
+    background-color: white;
+    color: black;
+    border-radius: 50%;
+    padding: 5px;
+}
+
+
+
+/* Header Start */
+
+.header {
+    margin: 0;
+    padding: 5px 0;
+    width: 100%;
+    background-color: black;
+}
+
+.header .inner {
+    margin: 0 auto;
+    padding: 0;
+    width: 960px;
+    height: 85px;
+    /* border: 1px solid blue; */
+}
+
+.logo {
+    margin: 0 auto;
+    font-family: 'Cedarville Cursive';
+    color: white;
+    text-transform: capitalize;
+    font-size: 44px;
+    /* border: 1px solid blue; */
+}
+
+.top-nav {
+    margin: -60px;
+    /* border: 1px solid red; */
+}
+
+.top-nav .social-list {
+    list-style-type: none;
+    margin: 0 auto;
+    width: 960px;
+    /* border: 1px solid red; */
+}
+
+.sr-only {
+    display: none;
+}
+
+.top-nav .so-list-item {
+    display: inline-block;
+    float: right;
+    margin: 0 auto;
+    padding: 5px;
+    /* border: 1px solid red; */
+}
+
+.icon:hover {
+    background-color: grey;
+    cursor: pointer;
+}
+
+/* Header End */
+
+/* Main Start */
+
+.main .inner {
+    margin: 0 auto;
+    padding: 0;
+    width: 960px;
+    /* border: 1px solid red; */
+}
+
+.main .section1 {
+    background: linear-gradient(#e9718a, #eb8ea1);
+    width: 100%;
+    height: 350px;
+    /* border: 1px solid blue; */
+}
+
+.block1 {
+    width: 50%;
+    height: 349px;
+    color: white;
+    /* border: 1px solid green; */
+}
+
+.block1 .sub-header {
+    margin: 0 auto;
+    padding-top: 5px;
+    width: 100%;
+    font-size: 32px;
+    /* border: 1px solid brown; */
+}
+
+.block1-text {
+    width: 87%;
+    /* border: 1px solid yellow; */
+}
+
+.button {
+    background-color: #3a3b3d;
+    color: white;
+    text-transform: capitalize;
+    font-size: 14px;
+    margin-right: 20px;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.button:hover {
+    background-color: orangered;
+    cursor: pointer;
+}
+
+.block2 {
+    float: right;
+    margin-top: -320px;
+    /* border: 1px solid red; */
+}
+
+.landing-img {
+    /* margin-top: -225px; */
+    width: 450px;
+    height: 300px;
+}
+
+.section2 {
+    background-color: #f4f4f6;
+}
+
+.section2 .inner {
+    /* display: inline-block; */
+    margin: 0 auto;
+    padding: 0;
+    width: 960px;
+}
+
+.block3, .block4, .block5 {
+    display: inline-block;
+}
+
+.block3 {
+    width: 315px;
+    /* border: 2px solid red; */
+}
+
+.block4 {
+    width: 319px;
+    /* border: 2px solid blue; */
+}
+
+.block5 {
+    /* float: right; */
+    width: 315px;
+    /* border: 2px solid green; */
+}
+
+.section3 .inner {
+    width: 960px;
+    height: 400px;
+}
+
+.block6 {
+    display: inline-block;
+    width: 63%;
+    height: 388.81px;
+    /* border: 2px solid red; */
+}
+
+.products {
+    /* display: inline-block; */
+    /* float: left; */
+    margin-top: -35px;
+    justify-content: space-between;
+    height: 320px;
+    /* border: 2px solid blue; */
+}
+
+.product {
+    display: inline-block;
+    /* justify-content: space-between; */
+    padding: 18px;
+    padding-left: 0;
+}
+
+.search-icon {
+    width: 275px;
+}
+
+.aside {
+    float: right;
+    padding: 15px;
+    width: 37%;
+    /* border: 2px solid green; */
+}
+
+.bold {
+    font-weight: bold;
+}
+
+/* Main End */
+
+/* Footer Start */
+
+.footer {
+    background-color: black;
+    margin: 0;
+    /* padding: 5px 0; */
+    height: 75px;
+}
+
+.footer .inner {
+    margin: 0 auto;
+    padding: 0;
+    width: 960px;
+}
+
+.colophon {
+    padding-top: 15px;
+    width: 960px;
+}
+
+.colophon-text {
+    /* padding-top: 35px; */
+    /* margin: 0 auto; */
+    color: white;
+}
+
+.footer-nav .social-list {
+    /* list-style-type: none; */
+    /* margin: 0 auto; */
+    /* padding: 0; */
+    /* width: 960px; */
+    /* height: 100px; */
+    /* border: 1px solid red; */
+}
+
+.footer-nav .so-list-item {
+    display: inline-block;
+    float: right;
+    margin-top: -47px;
+    padding: 5px;
+    /* border: 1px solid blue; */
+}
